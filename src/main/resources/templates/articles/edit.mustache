@@ -1,0 +1,10 @@
+<form action ="/articles/update" method="post">
+    {{#article}}
+
+    <input name="id"  value="{{id}}">
+    <input type="text" name="title" value="{{title}}">
+    <textarea name="content">{{content}}</textarea>
+    <button type="submit">제출</button>
+    {{/article}}
+</form>
+<h1>하이</h1>
